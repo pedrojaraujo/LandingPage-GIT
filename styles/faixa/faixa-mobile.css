@@ -1,0 +1,18 @@
+@media (max-width: 767px) { 
+
+    .faixa__superior {
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: var(--blue-default);
+        height: 1.2rem;
+    }
+    .faixa__superior ul {
+        display: flex;
+        align-items: center;
+        gap: 1.3rem;
+        padding-right: 1.3rem;
+        list-style: none;
+        font-size: 0.8rem;
+    }
+ }

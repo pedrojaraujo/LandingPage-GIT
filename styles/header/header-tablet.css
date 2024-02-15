@@ -1,0 +1,99 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header__Container {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding-bottom: 5px;
+        width: 80%;
+        margin: auto;
+        height: 80px;
+    }
+
+    .logo__container img {
+        width: 140px;
+    }
+
+    .menu li {
+        display: inline-block;
+        list-style: none;
+        padding-inline: 10px;
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: var(--gray-default);
+    }
+
+
+    .submenu {
+        display: none;
+        position: absolute;
+        list-style: none;
+        color: white;
+        background-color: var(--blue-default);
+        text-align: center;
+        width: 100px;
+        font-size: 0.8rem;
+    }
+
+    .submenu:hover {
+        display: block;
+    }
+
+    .submenu li {
+        display: block;
+        padding: 10px;
+    }
+
+    .submenu li a {
+        color: white;
+    }
+
+    .submenu li:hover {
+        background-color: white;
+    }
+
+    .submenu li:hover .submenu__a {
+        color: var(--blue-default);
+    }
+
+    .dropdown:hover .submenu {
+        display: block;
+    }
+
+    .submenu2 {
+        display: none;
+        position: absolute;
+        list-style: none;
+        text-align: center;
+        width: 100px;
+        font-size: 0.8rem;
+        left: 100px;
+        color: white;
+        background-color: var(--blue-default);
+    }
+
+    .submenu2 li a {
+        color: white;
+    }
+
+    .submenu2 li {
+        display: block;
+        padding: 10px;
+    }
+
+    .submenu li:last-child:hover .submenu2 {
+        display: block;
+    }
+
+
+    .submenu2 li:hover {
+        background-color: white;
+    }
+
+    .submenu2 li:hover .submenu2__a {
+        color: var(--blue-default);
+    }
+}

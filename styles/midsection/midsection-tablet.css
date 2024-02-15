@@ -1,0 +1,39 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mid__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        height: 300px;
+    }
+
+    .mid__text {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        margin-left: 5%;
+        color: var(--gray-default);
+        font-size: 0.8rem;
+    }
+
+    .mid__text p {
+        padding-block: 1%;
+    }
+
+    .mid__text ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-block: 5%;
+        
+    }
+
+
+    .image__midsection img {
+
+        width: 220px;
+        height: 180px;
+    }
+}

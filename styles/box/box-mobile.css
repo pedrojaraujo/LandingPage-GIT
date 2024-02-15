@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+
+    .box__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        color: var(--gray-default);
+        overflow: hidden;
+        padding-block: 25px;
+        margin-top: 30px;
+    }
+
+    .box__container ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .box__container ul li {
+        text-align: center;
+    }
+    
+    .box__container ul li img {
+        
+        width: 230px;
+    }
+
+    .box__container ul li p {
+        font-size: 0.7rem;
+    }
+}

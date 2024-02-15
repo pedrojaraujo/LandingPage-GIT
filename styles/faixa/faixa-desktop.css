@@ -1,0 +1,17 @@
+@media (min-width: 1024px) {
+    .faixa__superior {
+        display: flex;
+        justify-content: end;
+        color: white;
+        background-color: var(--blue-default);
+        height: 2rem;
+    }
+
+    .faixa__superior ul {
+        display: flex;
+        align-items: center;
+        gap: 1.3rem;
+        padding-right: 1.3rem;
+        list-style: none;
+    }
+}

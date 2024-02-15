@@ -1,0 +1,48 @@
+@media (max-width: 767px) {
+
+    .mid__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .mid__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 15px;
+        margin-left: 5%;
+        color: var(--gray-default);
+        font-size: 0.8rem;
+        padding-block: 10px;
+    }
+
+    .mid__text h2 {
+        text-align: center;
+    }
+
+    .mid__text p {
+        text-align: center;
+    }
+
+    .mid__text ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-block: 5%;
+        text-align: justify;
+        
+    }
+
+    .image__midsection img {
+        width: 230px;
+        height: 130px;
+    }
+}

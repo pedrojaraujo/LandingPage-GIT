@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="lib/nivo-slider/nivo-slider/themes/default/default.css " type="text/css"
+        media="screen" />
+    <link rel="stylesheet" href="lib/nivo-slider/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="styles/globalstyles.css">
+</head>
+
+<body>
+    <header>
+        <div class="faixa__superior">
+            <ul>
+                <li>11 1234-1234</li>
+                <li>11 1234-1234</li>
+            </ul>
+        </div>
+
+        <div class="header__Container">
+            <div class="logo__container">
+                <img src="assets/images/logo.png" alt="Logo do site, representado por mãos fazendo gesto de união.">
+            </div>
+            <nav class="nav__container">
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="#">EMPRESA</a>
+                        <ul class="submenu">
+                            <li><a href="#" class="submenu__a">SUBMENU 1</a></li>
+                            <li><a href="#" class="submenu__a">SUBMENU 1</a></li>
+                            <li><a href="#" class="submenu__a">SUBMENU 1</a></li>
+                            <li>
+                                <a href="#" class="submenu__a">SUBMENU 1</a>
+                                <ul class="submenu2">
+                                    <li><a href="#" class="submenu2__a">SUBMENU 2</a></li>
+                                    <li><a href="#" class="submenu2__a">SUBMENU 2</a></li>
+                                    <li><a href="#" class="submenu2__a">SUBMENU 2</a></li>
+                                    <li><a href="#" class="submenu2__a">SUBMENU 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">CLIENTES</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero__container">
+            <div id="slider" class="nivoSlider">
+                <img src="assets/images/hero__img1.png" alt="" id="image__Container" />
+                <img src="assets/images/hero__img2.png" alt="" id="image__Container" />
+            </div>
+        </section>
+        <section class="mid__container">
+            <section class="mid__text">
+                <h2>TESTE DE HTML E CSS</h2>
+                <p>Quesitos de avaliação</p>
+                <ul>
+                    <li>Organização do código (quanto mais limpo melhor);</li>
+                    <li>Nível de detalhismo (quanto mais identico melhor);</li>
+                    <li>Tempo de desenvolvimento (seja sincero ao enviar o tempo gato);</li>
+                </ul>
+                <p>Ao finalizar o teste, envie zipado o código para o e-mail com o tempo gasto e seu cv anexado.</p>
+                <p>Obrigado e boa sorte!</p>
+            </section>
+            <div class="image__midsection">
+                <img src="assets/images/mid__img.png" alt="Imagem ilustrativa">
+            </div>
+        </section>
+        <section class="box__container">
+            <h2>BOXES DE DESTAQUE</h2>
+            <ul>
+                <li>
+                    <a href="#"><img src="assets/images/box__img1.png" alt="Imagem ilustrativa"></a>
+                    <p>Um texto descritivo com link apenas</p>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/images/box__img2.png" alt="Imagem ilustrativa"></a>
+                    <p>Um texto descritivo com link apenas</p>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/images/box__img3.png" alt="Imagem ilustrativa"></a>
+                    <p>Um texto descritivo com link apenas</p>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/images/box__img4.png" alt="Imagem ilustrativa"></a>
+                    <p>Um texto descritivo com link apenas</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer__container">
+
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">EMPRESA</a></li>
+            <li><a href="#">CLIENTES</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+        <h3>RODAPE</h3>
+
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/nivo-slider/nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                nextText: '',
+                prevText: '',
+                pauseTime: 10000,
+                pauseOnHover: true,
+                randomStart: false,
+                controlNavThumbs: true,
+
+
+            });
+        });
+    </script>
+</body>
+
+</html>

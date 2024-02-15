@@ -1,0 +1,26 @@
+@media (min-width: 1024px) {
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        height: 250px;
+        color: white;
+        background-color: var(--gray-dark);
+    }
+
+
+    .footer__container ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        margin-bottom: 3%;
+    }
+
+    .footer__container ul a {
+        text-decoration: none;
+        color: var(--gray-default);
+    }
+}

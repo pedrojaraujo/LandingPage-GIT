@@ -1,0 +1,33 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .box__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        color: var(--gray-default);
+        overflow: hidden;
+        padding-block: 25px;
+    }
+    
+    .box__container ul {
+        display: flex;
+        gap: 3%;
+        list-style: none;
+        margin-top: 3%;
+    }
+    
+    .box__container ul li {
+        text-align: center;
+    }
+    
+    .box__container ul li img {
+        
+        width: 130px;
+    }
+
+    .box__container ul li p {
+        font-size: 0.7rem;
+    }
+}

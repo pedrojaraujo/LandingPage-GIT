@@ -1,0 +1,40 @@
+@media (min-width: 1024px) {
+
+    .mid__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        height: 500px;
+        
+    }
+
+    .mid__text {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin-left: 5%;
+        color: var(--gray-default)
+    }
+
+    .mid__text p {
+        padding-block: 1%;
+    }
+
+    .mid__text ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-block: 5%;
+    }
+
+
+    .image__midsection img {
+
+        width: 450px;
+        height: 350px;
+    }
+
+}
